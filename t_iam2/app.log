@@ -1,66 +1,8 @@
-
-2023-10-16 00:54:41,045 - INFO - ['123', '151.252.32.222', 'ABC-CBA', '2332', 'http://lmao.com']
-2023-10-16 00:56:50,797 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\urls.py changed, reloading.
-2023-10-16 01:00:13,600 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 01:09:21,995 - ERROR - Internal Server Error: /check_data/
-Traceback (most recent call last):
-  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: check_data() takes 0 positional arguments but 1 was given
-2023-10-16 01:10:02,084 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:35:57,321 - WARNING - Not Found: /login_account_submit/
-2023-10-16 08:36:33,470 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\urls.py changed, reloading.
-2023-10-16 08:36:42,568 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:37:17,085 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\urls.py changed, reloading.
-2023-10-16 08:38:32,916 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:38:44,092 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:39:28,767 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:39:40,865 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:39:43,728 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:39:52,384 - INFO - inforLogin object (22)
-2023-10-16 08:40:10,680 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:40:20,907 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:41:45,546 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:41:55,732 - WARNING - Sai tai khoan/mat khau
-2023-10-16 08:41:55,779 - ERROR - Internal Server Error: /login_account_submit/
-Traceback (most recent call last):
-  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
-    self.check_response(response, callback)
-  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
-    raise ValueError(
-ValueError: The view train_test.views.login_account_submit didn't return an HttpResponse object. It returned None instead.
-2023-10-16 08:42:17,613 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:42:22,580 - WARNING - Sai tai khoan/mat khau
-2023-10-16 08:42:44,838 - WARNING - Sai tai khoan/mat khau
-2023-10-16 08:43:09,933 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:43:16,684 - ERROR - Internal Server Error: /login_account_submit/
-Traceback (most recent call last):
-  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py", line 55, in login_account_submit
-    if inforuser['username']=="abcde" and inforuser['passwork']=="12345":
-       ~~~~~~~~~^^^^^^^^^^^^
-TypeError: list indices must be integers or slices, not str
-2023-10-16 08:43:28,330 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:43:47,291 - WARNING - Sai tai khoan/mat khau
-2023-10-16 08:44:05,243 - INFO - ['123', '151.252.32.222', 'ABC-CBA', '23', 'http://lmao.com']
-2023-10-16 08:44:10,372 - WARNING - Sai tai khoan/mat khau
-2023-10-16 08:45:18,027 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:45:22,843 - WARNING - Sai tai khoan/mat khau
-2023-10-16 08:45:47,929 - WARNING - Sai tai khoan/mat khau
-2023-10-16 08:46:19,466 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:46:21,662 - WARNING - Sai tai khoan/mat khau
-2023-10-16 08:46:26,128 - INFO - ['abcde', '12345']
-2023-10-16 08:46:46,178 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
-2023-10-16 08:46:53,503 - WARNING - Sai tai khoan/mat khau
+2023-10-16 11:31:26,978 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 11:31:29,280 - WARNING - Sai tai khoan/mat khau
+2023-10-16 11:31:33,138 - WARNING - Sai tai khoan/mat khau
+2023-10-16 11:31:48,663 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 11:31:52,697 - WARNING - Sai tai khoan/mat khau {inforuser}
+2023-10-16 11:33:03,964 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 11:33:08,277 - WARNING - Sai tai khoan/mat khau ['21f21', '13gf1f']
+2023-10-16 11:33:19,393 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.

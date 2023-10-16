@@ -3,19 +3,27 @@
 <p>Link check data được lưu:http://ip hoặc domain/check_data</p>
 <form action="/login_submit/" method="post">
     {% csrf_token %}
-    <input name="usg_id" value="{{ usg_id }}">
-    <input name="usg_network_ip" value="{{ usg_network_ip }}">
-    <input name="subscriber_mac" value="{{ subscriber_mac }}">
-    <input name="port_mapping" value="{{ port_mapping }}">
-    <input name="origin_server_url" value="{{ origin_server_url }}">
+    <input required name="usg_id" value="{{ usg_id }}">
+    <input required name="usg_network_ip" value="{{ usg_network_ip }}">
+    <input required name="subscriber_mac" value="{{ subscriber_mac }}">
+    <input required name="port_mapping" value="{{ port_mapping }}">
+    <input required name="origin_server_url" value="{{ origin_server_url }}">
     <button>Còn nét</button>
 </form> 
-
 
 <p>Đây là trang login page lỏ với account</p>
 <form action="/login_account_submit/" method="post">
     {% csrf_token %}
-    <input name="username" value="" placeholder="Tài khoản">
-    <input type="password" name="passwork" value="" placeholder="Mật khẩu">
+    <p>tk/mk:abcde,12345</p>
+    <input required name="username" value="">
+    <input required type="password" name="passwork" value="">
     <button>Còn nét</button>
 </form> 
+
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}

@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.shortcuts import redirect
 from .models import inforLogin
 import logging
+from django.contrib import messages
 
 logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -60,5 +61,6 @@ def login_account_submit(request):
                 return redirect("https://www.google.com")
             else:
                 logger = logging.getLogger(__name__)
-                logger.warning("Sai tai khoan/mat khau")
+                logger.warning(f"Sai tai khoan/mat khau {inforuser}")
+                messages.warning(request, "Sai tai khoan/mat khau")
                 return render(request,"login.html")
