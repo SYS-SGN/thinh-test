@@ -1,0 +1,21 @@
+<p>Đây là login page lỏ single click</p>
+<p>Link để test:http://ip hoặc domain/?UI=123&UIP=151.252.32.222&MA=ABC-CBA&RN=23&OS=http://lmao.com</p>
+<p>Link check data được lưu:http://ip hoặc domain/check_data</p>
+<form action="/login_submit/" method="post">
+    {% csrf_token %}
+    <input name="usg_id" value="{{ usg_id }}">
+    <input name="usg_network_ip" value="{{ usg_network_ip }}">
+    <input name="subscriber_mac" value="{{ subscriber_mac }}">
+    <input name="port_mapping" value="{{ port_mapping }}">
+    <input name="origin_server_url" value="{{ origin_server_url }}">
+    <button>Còn nét</button>
+</form> 
+
+
+<p>Đây là trang login page lỏ với account</p>
+<form action="/login_account_submit/" method="post">
+    {% csrf_token %}
+    <input name="username" value="" placeholder="Tài khoản">
+    <input type="password" name="passwork" value="" placeholder="Mật khẩu">
+    <button>Còn nét</button>
+</form> 
