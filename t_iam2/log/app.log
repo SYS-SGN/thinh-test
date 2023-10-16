@@ -1,0 +1,96 @@
+2023-10-16 11:45:00,233 - ERROR - Internal Server Error: /login_account_submit/
+Traceback (most recent call last):
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view train_test.views.login_account_submit didn't return an HttpResponse object. It returned None instead.
+2023-10-16 11:46:23,931 - ERROR - Internal Server Error: /login_account_submit/
+Traceback (most recent call last):
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view train_test.views.login_account_submit didn't return an HttpResponse object. It returned None instead.
+2023-10-16 11:46:31,593 - WARNING - Sai tai khoan/mat khau ['412', '412']
+2023-10-16 11:48:12,293 - ERROR - Internal Server Error: /login_account_submit/
+Traceback (most recent call last):
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view train_test.views.login_account_submit didn't return an HttpResponse object. It returned None instead.
+2023-10-16 11:49:14,348 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\urls.py changed, reloading.
+2023-10-16 11:49:25,040 - ERROR - Internal Server Error: /login_account_submit/
+Traceback (most recent call last):
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view train_test.views.login_account_submit didn't return an HttpResponse object. It returned None instead.
+2023-10-16 11:49:32,848 - WARNING - Sai tai khoan/mat khau ['12e', 'e21e']
+2023-10-16 11:49:35,392 - WARNING - Sai tai khoan/mat khau ['12e', 'e21e']
+2023-10-16 11:49:40,080 - ERROR - Internal Server Error: /login_account_submit/
+Traceback (most recent call last):
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view train_test.views.login_account_submit didn't return an HttpResponse object. It returned None instead.
+2023-10-16 11:51:37,069 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 11:54:45,428 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 11:55:07,066 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 11:55:10,683 - ERROR - Internal Server Error: /login_account_submit/
+Traceback (most recent call last):
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view train_test.views.login_account_submit didn't return an HttpResponse object. It returned None instead.
+2023-10-16 11:55:16,164 - WARNING - Sai tai khoan/mat khau ['12e', '2e21e']
+2023-10-16 11:55:16,206 - ERROR - Internal Server Error: /login_account_submit/login.html
+Traceback (most recent call last):
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view train_test.views.login_account_submit didn't return an HttpResponse object. It returned None instead.
+2023-10-16 11:55:44,403 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 11:55:47,397 - WARNING - Sai tai khoan/mat khau ['12e', '2e21e']
+2023-10-16 11:56:07,045 - ERROR - Internal Server Error: /login_account_submit/
+Traceback (most recent call last):
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\env\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view train_test.views.login_account_submit didn't return an HttpResponse object. It returned None instead.
+2023-10-16 12:04:26,863 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 12:04:44,100 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 12:05:08,480 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 12:05:22,650 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
+2023-10-16 12:05:34,021 - INFO - ['123', '151.252.32.222', 'ABC-CBA', '23', 'http://lmao.com']
+2023-10-16 12:05:56,803 - INFO - C:\Users\NETNAM-USER\Desktop\Linh tinh\Plan\IT\wmk\t_iam2\train_test\views.py changed, reloading.
