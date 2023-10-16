@@ -1,2 +1,2 @@
 Python 3.10.12
-Lib venv: pip3 install requests
+Lib venv: requests, gunicorn
