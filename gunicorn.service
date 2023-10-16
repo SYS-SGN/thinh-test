@@ -1,0 +1,17 @@
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=thinh-webserver
+Group=www-data
+WorkingDirectory=/home/thinh-webserver/test/thinh-test/t_iam2
+ExecStart=/home/thinh-webserver/test/thinh-test/env/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+          --bind unix:/run/gunicorn.sock \
+          t_iam2.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
